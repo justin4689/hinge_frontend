@@ -119,8 +119,8 @@ export default function SettingsScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background },
   inner: { padding: 24, paddingTop: 60 },
-  title: { fontSize: 26, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', marginBottom: 24 },
-  label: { color: COLORS.textSecondary, fontSize: 13, marginBottom: 4, fontFamily: 'ModernEra-Bold', marginTop: 16 },
+  title: { fontSize: 26, color: COLORS.textPrimary,  marginBottom: 24 },
+  label: { color: COLORS.textSecondary, fontSize: 13, marginBottom: 4,  marginTop: 16 },
   slider: { marginBottom: 8 },
   genderRow: { flexDirection: 'row', gap: 8, marginTop: 8, marginBottom: 32 },
   genderBtn: {
@@ -134,8 +134,8 @@ const styles = StyleSheet.create({
   },
   genderBtnSelected: { borderColor: COLORS.accent, backgroundColor: COLORS.accent + '22' },
   genderText: { color: COLORS.textSecondary, fontSize: 13 },
-  genderTextSelected: { color: COLORS.accent, fontFamily: 'ModernEra-Bold' },
+  genderTextSelected: { color: COLORS.accent,  },
   button: { backgroundColor: COLORS.white, borderRadius: 30, padding: 16, alignItems: 'center' },
   buttonDisabled: { opacity: 0.6 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
 })

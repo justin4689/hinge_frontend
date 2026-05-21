@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     color: COLORS.textPrimary,
-    fontFamily: 'Tiempos-Semibold',
+    
     marginBottom: 12,
     textAlign: 'center',
   },
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: COLORS.white,
     fontSize: 16,
-    fontFamily: 'ModernEra-Bold',
+    
   },
   close: {
     padding: 12,

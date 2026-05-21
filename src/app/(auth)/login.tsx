@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 32,
     color: COLORS.textPrimary,
-    fontFamily: 'Tiempos-Semibold',
+    
     marginBottom: 32,
   },
   input: {
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   buttonDisabled: { opacity: 0.6 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
   link: { alignItems: 'center', marginTop: 24 },
   linkText: { color: COLORS.textSecondary, fontSize: 14 },
 })

@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 22,
     color: COLORS.textPrimary,
-    fontFamily: 'Tiempos-Semibold',
+    
   },
   distance: {
     fontSize: 14,
@@ -120,6 +120,6 @@ const styles = StyleSheet.create({
   photoLikeBtn: { position: 'absolute', bottom: 12, right: 12 },
   infoSection: { paddingHorizontal: 16, paddingVertical: 12, gap: 8 },
   infoRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  infoText: { fontSize: 14, color: COLORS.textSecondary, fontFamily: 'ModernEra-Regular' },
+  infoText: { fontSize: 14, color: COLORS.textSecondary,  },
   prompts: { paddingHorizontal: 16 },
 })

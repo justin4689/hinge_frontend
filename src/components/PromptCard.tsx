@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   question: {
     fontSize: 12,
     color: COLORS.textSecondary,
-    fontFamily: 'ModernEra-Regular',
+    
     marginBottom: 8,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   answer: {
     fontSize: 16,
     color: COLORS.textOnWhite,
-    fontFamily: 'ModernEra-Regular',
+    
     lineHeight: 22,
     paddingRight: 48,
   },

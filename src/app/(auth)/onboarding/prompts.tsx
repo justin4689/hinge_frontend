@@ -132,7 +132,7 @@ export default function OnboardingPrompts() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background, padding: 24 },
-  title: { fontSize: 24, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', marginBottom: 16 },
+  title: { fontSize: 24, color: COLORS.textPrimary,  marginBottom: 16 },
   selectedCard: {
     backgroundColor: COLORS.surfaceDark,
     borderRadius: 12,
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
   answerInput: { color: COLORS.textPrimary, fontSize: 14, minHeight: 40 },
   counter: { color: COLORS.textSecondary, fontSize: 11, textAlign: 'right', marginTop: 4 },
   list: { flex: 1 },
-  sectionTitle: { color: COLORS.accent, fontSize: 12, fontFamily: 'ModernEra-Bold', marginTop: 16, marginBottom: 8 },
+  sectionTitle: { color: COLORS.accent, fontSize: 12,  marginTop: 16, marginBottom: 8 },
   promptItem: {
     backgroundColor: COLORS.surfaceDark,
     borderRadius: 10,
@@ -165,5 +165,5 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   buttonDisabled: { opacity: 0.4 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
 })

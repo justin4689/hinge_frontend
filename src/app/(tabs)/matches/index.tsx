@@ -92,7 +92,7 @@ export default function MatchesScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background },
   centered: { flex: 1, backgroundColor: COLORS.background, alignItems: 'center', justifyContent: 'center' },
-  title: { fontSize: 22, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', padding: 16, paddingTop: 60 },
+  title: { fontSize: 22, color: COLORS.textPrimary,  padding: 16, paddingTop: 60 },
   item: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -103,8 +103,8 @@ const styles = StyleSheet.create({
   },
   avatar: { width: 52, height: 52, borderRadius: 26, marginRight: 12, backgroundColor: COLORS.surfaceDark },
   info: { flex: 1 },
-  name: { fontSize: 16, color: COLORS.textPrimary, fontFamily: 'ModernEra-Bold', marginBottom: 2 },
-  lastMsg: { fontSize: 13, color: COLORS.textSecondary, fontFamily: 'ModernEra-Regular' },
+  name: { fontSize: 16, color: COLORS.textPrimary,  marginBottom: 2 },
+  lastMsg: { fontSize: 13, color: COLORS.textSecondary,  },
   right: { alignItems: 'flex-end', gap: 6 },
   time: { fontSize: 11, color: COLORS.textSecondary },
   dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: COLORS.accent },

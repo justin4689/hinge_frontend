@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 28,
     color: COLORS.accent,
-    fontFamily: 'Tiempos-Semibold',
+    
     marginBottom: 32,
   },
   photos: {
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     color: COLORS.textPrimary,
     marginBottom: 32,
     textAlign: 'center',
-    fontFamily: 'ModernEra-Regular',
+    
   },
   btnPrimary: {
     backgroundColor: COLORS.white,
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
   },
-  btnPrimaryText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  btnPrimaryText: { color: COLORS.black,  fontSize: 16 },
   btnSecondary: { padding: 12 },
   btnSecondaryText: { color: COLORS.textSecondary, fontSize: 14 },
 })

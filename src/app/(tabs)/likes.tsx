@@ -99,7 +99,7 @@ export default function LikesScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background },
   centered: { flex: 1, backgroundColor: COLORS.background, alignItems: 'center', justifyContent: 'center' },
-  title: { fontSize: 22, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', padding: 16, paddingTop: 60 },
+  title: { fontSize: 22, color: COLORS.textPrimary,  padding: 16, paddingTop: 60 },
   grid: { paddingHorizontal: 8 },
   card: { flex: 1, margin: 4, height: 200, borderRadius: 12, overflow: 'hidden' },
   cardImage: { width: '100%', height: '100%' },
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     padding: 8,
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
-  cardName: { color: COLORS.white, fontFamily: 'ModernEra-Bold', fontSize: 14 },
+  cardName: { color: COLORS.white,  fontSize: 14 },
   modal: {
     flex: 1,
     backgroundColor: COLORS.background,
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     padding: 32,
   },
   modalImage: { width: 240, height: 320, borderRadius: 20, marginBottom: 20 },
-  modalName: { fontSize: 24, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', marginBottom: 24 },
+  modalName: { fontSize: 24, color: COLORS.textPrimary,  marginBottom: 24 },
   likeBackBtn: {
     backgroundColor: COLORS.error,
     borderRadius: 30,
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 40,
     marginBottom: 12,
   },
-  likeBackBtnText: { color: COLORS.white, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  likeBackBtnText: { color: COLORS.white,  fontSize: 16 },
   closeBtn: { padding: 12 },
   closeBtnText: { color: COLORS.textSecondary, fontSize: 14 },
 })

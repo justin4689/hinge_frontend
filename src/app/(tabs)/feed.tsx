@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background },
   list: { paddingTop: 8 },
   centered: { flex: 1, backgroundColor: COLORS.background, alignItems: 'center', justifyContent: 'center', padding: 32 },
-  emptyText: { color: COLORS.textPrimary, fontSize: 18, fontFamily: 'Tiempos-Semibold', textAlign: 'center', marginBottom: 20 },
+  emptyText: { color: COLORS.textPrimary, fontSize: 18,  textAlign: 'center', marginBottom: 20 },
   emptyBtn: { backgroundColor: COLORS.accent, borderRadius: 30, paddingVertical: 12, paddingHorizontal: 24 },
-  emptyBtnText: { color: COLORS.white, fontFamily: 'ModernEra-Bold', fontSize: 14 },
+  emptyBtnText: { color: COLORS.white,  fontSize: 14 },
 })

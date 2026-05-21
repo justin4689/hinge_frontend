@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: COLORS.textOnWhite,
     marginBottom: 16,
-    fontFamily: 'ModernEra-Regular',
+    
     fontStyle: 'italic',
   },
   input: {
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     borderColor: COLORS.borderLight,
     alignItems: 'center',
   },
-  btnSecondaryText: { color: COLORS.textOnWhite, fontFamily: 'ModernEra-Regular', fontSize: 14 },
+  btnSecondaryText: { color: COLORS.textOnWhite,  fontSize: 14 },
   btnPrimary: {
     flex: 1,
     paddingVertical: 14,
@@ -133,5 +133,5 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.black,
     alignItems: 'center',
   },
-  btnPrimaryText: { color: COLORS.white, fontFamily: 'ModernEra-Bold', fontSize: 14 },
+  btnPrimaryText: { color: COLORS.white,  fontSize: 14 },
 })

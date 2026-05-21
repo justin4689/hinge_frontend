@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     flex: 1,
     color: COLORS.textPrimary,
     fontSize: 15,
-    fontFamily: 'ModernEra-Regular',
+    
     maxHeight: 100,
     paddingVertical: 8,
     paddingHorizontal: 12,

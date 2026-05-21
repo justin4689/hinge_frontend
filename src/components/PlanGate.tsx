@@ -51,5 +51,5 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 20,
   },
-  btnText: { color: COLORS.white, fontFamily: 'ModernEra-Bold', fontSize: 14 },
+  btnText: { color: COLORS.white,  fontSize: 14 },
 })

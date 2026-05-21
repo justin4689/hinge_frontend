@@ -6,7 +6,6 @@ import { StripeProvider } from '@stripe/stripe-react-native'
 import * as Notifications from 'expo-notifications'
 import { AndroidImportance } from 'expo-notifications'
 import Toast from 'react-native-toast-message'
-import { useFonts } from 'expo-font'
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
@@ -24,13 +23,12 @@ const queryClient = new QueryClient({
 })
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({
-    'ModernEra-Regular': require('../assets/fonts/ModernEra-Regular.otf'),
-    'ModernEra-Medium': require('../assets/fonts/ModernEra-Medium.otf'),
-    'ModernEra-Bold': require('../assets/fonts/ModernEra-Bold.otf'),
-    'Tiempos-Light': require('../assets/fonts/TiemposHeadline-Light.otf'),
-    'Tiempos-Semibold': require('../assets/fonts/TiemposHeadline-Semibold.otf'),
-  })
+  // Fonts Hinge (ModernEra + Tiempos) à activer quand les .otf sont placés dans assets/fonts/
+  // const [fontsLoaded] = useFonts({
+  //   'ModernEra-Regular': require('../../assets/fonts/ModernEra-Regular.otf'),
+  //   'ModernEra-Bold': require('../../assets/fonts/ModernEra-Bold.otf'),
+  //   'Tiempos-Semibold': require('../../assets/fonts/TiemposHeadline-Semibold.otf'),
+  // })
 
   useEffect(() => {
     if (Platform.OS === 'android') {

@@ -107,7 +107,7 @@ export default function OnboardingPhotos() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background, padding: 24 },
-  title: { fontSize: 28, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', marginBottom: 8 },
+  title: { fontSize: 28, color: COLORS.textPrimary,  marginBottom: 8 },
   subtitle: { fontSize: 14, color: COLORS.textSecondary, marginBottom: 24 },
   grid: { flex: 1 },
   photoBox: { flex: 1, margin: 4, height: 180, borderRadius: 12, overflow: 'hidden' },
@@ -133,5 +133,5 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   buttonDisabled: { opacity: 0.4 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
 })

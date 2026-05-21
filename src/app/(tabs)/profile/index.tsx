@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   inner: { paddingBottom: 40 },
   header: { alignItems: 'center', paddingTop: 80, paddingBottom: 32, backgroundColor: COLORS.surfaceDark },
   avatar: { width: 110, height: 110, borderRadius: 55, marginBottom: 16, borderWidth: 3, borderColor: COLORS.accent },
-  name: { fontSize: 24, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold' },
+  name: { fontSize: 24, color: COLORS.textPrimary,  },
   job: { fontSize: 14, color: COLORS.textSecondary, marginTop: 4 },
   actions: { marginTop: 24, borderTopWidth: 1, borderBottomWidth: 1, borderColor: COLORS.border },
   actionBtn: {
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: COLORS.border,
   },
-  actionText: { flex: 1, fontSize: 16, color: COLORS.textPrimary, fontFamily: 'ModernEra-Regular' },
+  actionText: { flex: 1, fontSize: 16, color: COLORS.textPrimary,  },
   logoutBtn: { marginTop: 40, marginHorizontal: 24, padding: 16, borderRadius: 12, borderWidth: 1, borderColor: COLORS.error, alignItems: 'center' },
-  logoutText: { color: COLORS.error, fontFamily: 'ModernEra-Bold', fontSize: 15 },
+  logoutText: { color: COLORS.error,  fontSize: 15 },
 })

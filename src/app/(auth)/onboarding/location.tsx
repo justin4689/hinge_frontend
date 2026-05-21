@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     padding: 32,
   },
   icon: { marginBottom: 24 },
-  title: { fontSize: 28, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', textAlign: 'center', marginBottom: 12 },
+  title: { fontSize: 28, color: COLORS.textPrimary,  textAlign: 'center', marginBottom: 12 },
   subtitle: { fontSize: 15, color: COLORS.textSecondary, textAlign: 'center', lineHeight: 22, marginBottom: 40 },
   button: {
     backgroundColor: COLORS.white,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     minHeight: 52,
   },
   buttonDisabled: { opacity: 0.6 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
   skip: { marginTop: 20 },
   skipText: { color: COLORS.textSecondary, fontSize: 14 },
 })

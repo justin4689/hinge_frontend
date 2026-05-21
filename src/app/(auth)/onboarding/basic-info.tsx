@@ -103,8 +103,8 @@ export default function OnboardingBasicInfo() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: COLORS.background },
   inner: { padding: 24, paddingTop: 8 },
-  title: { fontSize: 28, color: COLORS.textPrimary, fontFamily: 'Tiempos-Semibold', marginBottom: 24 },
-  label: { color: COLORS.textSecondary, fontSize: 13, marginBottom: 8, fontFamily: 'ModernEra-Bold' },
+  title: { fontSize: 28, color: COLORS.textPrimary,  marginBottom: 24 },
+  label: { color: COLORS.textSecondary, fontSize: 13, marginBottom: 8,  },
   input: {
     backgroundColor: COLORS.surfaceDark,
     borderRadius: 12,
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   genderBtnSelected: { borderColor: COLORS.accent, backgroundColor: COLORS.accent + '22' },
   genderText: { color: COLORS.textSecondary, fontSize: 14 },
-  genderTextSelected: { color: COLORS.accent, fontFamily: 'ModernEra-Bold' },
+  genderTextSelected: { color: COLORS.accent,  },
   button: {
     backgroundColor: COLORS.white,
     borderRadius: 30,
@@ -136,5 +136,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonDisabled: { opacity: 0.6 },
-  buttonText: { color: COLORS.black, fontFamily: 'ModernEra-Bold', fontSize: 16 },
+  buttonText: { color: COLORS.black,  fontSize: 16 },
 })
