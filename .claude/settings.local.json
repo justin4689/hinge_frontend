@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx expo *)",
+      "Bash(mkdir -p \"c:\\\\Users\\\\JUSTIN\\\\Desktop\\\\Projet React Native\\\\hinge_clone\\\\app\\\\\\(auth\\)\\\\onboarding\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\JUSTIN\\\\Desktop\\\\Projet React Native\\\\hinge_clone\\\\app\\\\\\(tabs\\)\\\\matches\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\JUSTIN\\\\Desktop\\\\Projet React Native\\\\hinge_clone\\\\app\\\\\\(tabs\\)\\\\profile\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\JUSTIN\\\\Desktop\\\\Projet React Native\\\\hinge_clone\\\\components\\\\ProfileCard\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\JUSTIN\\\\Desktop\\\\Projet React Native\\\\hinge_clone\\\\store\")",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'feat: setup projet hinge clone - structure complète, stores, composants et écrans *)",
+      "Bash(git push *)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/expo-router/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(robocopy app *)",
+      "Bash(cmd /c \"xcopy /E /I /Y /Q app src\\\\\\\\app\")"
+    ]
+  }
+}
