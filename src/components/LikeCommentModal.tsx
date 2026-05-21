@@ -11,7 +11,7 @@ import {
   Platform,
   Dimensions,
 } from 'react-native'
-import { COLORS } from '../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 interface Props {
   visible: boolean

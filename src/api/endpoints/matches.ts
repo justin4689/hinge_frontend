@@ -1,4 +1,4 @@
-import { apiFetch } from '../client'
+import { apiFetch } from '@/api/client'
 
 export const matchesApi = {
   getMatches: () => apiFetch<any>('/matches'),

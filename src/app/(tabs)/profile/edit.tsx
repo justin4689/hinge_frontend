@@ -11,9 +11,9 @@ import {
 } from 'react-native'
 import { router } from 'expo-router'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../../api/client'
-import { useAuthStore } from '../../../store/useAuthStore'
-import { COLORS } from '../../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { useAuthStore } from '@/store/useAuthStore'
+import { COLORS } from '@/utils/constants'
 
 export default function EditProfileScreen() {
   const user = useAuthStore((s) => s.user)

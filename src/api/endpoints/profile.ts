@@ -1,4 +1,4 @@
-import { apiFetch } from '../client'
+import { apiFetch } from '@/api/client'
 
 export const profileApi = {
   getMe: () => apiFetch<any>('/profile/me'),

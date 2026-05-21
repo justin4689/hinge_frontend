@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
-import { useMatchesStore } from '../../store/useMatchesStore'
-import { COLORS } from '../../utils/constants'
+import { useMatchesStore } from '@/store/useMatchesStore'
+import { COLORS } from '@/utils/constants'
 
 export default function TabsLayout() {
   const unreadCount = useMatchesStore((s) => s.unreadCount)

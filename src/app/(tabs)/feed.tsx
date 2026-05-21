@@ -11,12 +11,12 @@ import { useInfiniteQuery, useMutation } from '@tanstack/react-query'
 import * as Haptics from 'expo-haptics'
 import { router } from 'expo-router'
 import Toast from 'react-native-toast-message'
-import ProfileCard from '../../components/ProfileCard'
-import MatchAnimation from '../../components/MatchAnimation'
-import { apiFetch } from '../../api/client'
-import { useAuthStore } from '../../store/useAuthStore'
-import { useFeedStore } from '../../store/useFeedStore'
-import { COLORS } from '../../utils/constants'
+import ProfileCard from '@/components/ProfileCard'
+import MatchAnimation from '@/components/MatchAnimation'
+import { apiFetch } from '@/api/client'
+import { useAuthStore } from '@/store/useAuthStore'
+import { useFeedStore } from '@/store/useFeedStore'
+import { COLORS } from '@/utils/constants'
 
 export default function FeedScreen() {
   const user = useAuthStore((s) => s.user)

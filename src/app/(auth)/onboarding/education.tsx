@@ -11,8 +11,8 @@ import {
 } from 'react-native'
 import { router } from 'expo-router'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../../api/client'
-import { COLORS } from '../../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { COLORS } from '@/utils/constants'
 
 const RELIGIONS = [
   'Agnostique', 'Athée', 'Bouddhiste', 'Catholique', 'Chrétien',

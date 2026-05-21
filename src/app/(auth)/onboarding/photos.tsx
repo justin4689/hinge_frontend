@@ -12,8 +12,8 @@ import * as ImagePicker from 'expo-image-picker'
 import { router } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../../api/client'
-import { COLORS } from '../../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { COLORS } from '@/utils/constants'
 
 interface PickedPhoto {
   uri: string

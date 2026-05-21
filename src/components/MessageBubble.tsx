@@ -1,8 +1,8 @@
 import { memo } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
-import { formatTime } from '../utils/formatDate'
-import { COLORS } from '../utils/constants'
+import { formatTime } from '@/utils/formatDate'
+import { COLORS } from '@/utils/constants'
 
 interface Message {
   _id: string

@@ -11,9 +11,9 @@ import { useForm, Controller } from 'react-hook-form'
 import { router } from 'expo-router'
 import * as SecureStore from 'expo-secure-store'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../api/client'
-import { useAuthStore } from '../../store/useAuthStore'
-import { COLORS } from '../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { useAuthStore } from '@/store/useAuthStore'
+import { COLORS } from '@/utils/constants'
 
 interface LoginForm {
   email: string

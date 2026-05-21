@@ -12,11 +12,11 @@ import {
 import { useLocalSearchParams } from 'expo-router'
 import { useQuery } from '@tanstack/react-query'
 import { Ionicons } from '@expo/vector-icons'
-import MessageBubble from '../../../components/MessageBubble'
-import socketService from '../../../services/socketService'
-import { apiFetch } from '../../../api/client'
-import { useAuthStore } from '../../../store/useAuthStore'
-import { COLORS } from '../../../utils/constants'
+import MessageBubble from '@/components/MessageBubble'
+import socketService from '@/services/socketService'
+import { apiFetch } from '@/api/client'
+import { useAuthStore } from '@/store/useAuthStore'
+import { COLORS } from '@/utils/constants'
 
 export default function ChatScreen() {
   const { matchId } = useLocalSearchParams<{ matchId: string }>()

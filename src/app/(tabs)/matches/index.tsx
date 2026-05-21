@@ -11,11 +11,11 @@ import { Image } from 'expo-image'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { router } from 'expo-router'
 import Toast from 'react-native-toast-message'
-import socketService from '../../../services/socketService'
-import { useMatchesStore } from '../../../store/useMatchesStore'
-import { apiFetch } from '../../../api/client'
-import { formatDate } from '../../../utils/formatDate'
-import { COLORS } from '../../../utils/constants'
+import socketService from '@/services/socketService'
+import { useMatchesStore } from '@/store/useMatchesStore'
+import { apiFetch } from '@/api/client'
+import { formatDate } from '@/utils/formatDate'
+import { COLORS } from '@/utils/constants'
 
 export default function MatchesScreen() {
   const queryClient = useQueryClient()

@@ -4,8 +4,8 @@ import * as Location from 'expo-location'
 import { router } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../../api/client'
-import { COLORS } from '../../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { COLORS } from '@/utils/constants'
 
 export default function OnboardingLocation() {
   const [loading, setLoading] = useState(false)

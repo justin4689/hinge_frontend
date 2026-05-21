@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import * as Notifications from 'expo-notifications'
 import Constants from 'expo-constants'
 import { router } from 'expo-router'
-import { apiFetch } from '../api/client'
+import { apiFetch } from '@/api/client'
 
 export function useNotifications() {
   useEffect(() => {

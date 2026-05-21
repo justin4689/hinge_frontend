@@ -2,9 +2,9 @@ import { memo, useRef } from 'react'
 import { View, Text, FlatList, StyleSheet, Dimensions, ViewToken } from 'react-native'
 import { Image } from 'expo-image'
 import { Ionicons } from '@expo/vector-icons'
-import LikeButton from '../LikeButton'
-import PromptCard from '../PromptCard'
-import { COLORS } from '../../utils/constants'
+import LikeButton from '@/components/LikeButton'
+import PromptCard from '@/components/PromptCard'
+import { COLORS } from '@/utils/constants'
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window')
 

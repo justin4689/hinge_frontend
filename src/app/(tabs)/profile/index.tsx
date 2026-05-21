@@ -2,8 +2,8 @@ import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-nati
 import { Image } from 'expo-image'
 import { router } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
-import { useAuthStore } from '../../../store/useAuthStore'
-import { COLORS } from '../../../utils/constants'
+import { useAuthStore } from '@/store/useAuthStore'
+import { COLORS } from '@/utils/constants'
 
 export default function ProfileScreen() {
   const user = useAuthStore((s) => s.user)

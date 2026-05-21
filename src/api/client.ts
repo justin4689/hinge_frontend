@@ -1,5 +1,5 @@
 import * as SecureStore from 'expo-secure-store'
-import { useAuthStore } from '../store/useAuthStore'
+import { useAuthStore } from '@/store/useAuthStore'
 
 const BASE = process.env.EXPO_PUBLIC_API_URL
 

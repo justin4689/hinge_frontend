@@ -11,9 +11,9 @@ import {
 import { Image } from 'expo-image'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import Toast from 'react-native-toast-message'
-import PlanGate from '../../components/PlanGate'
-import { apiFetch } from '../../api/client'
-import { COLORS } from '../../utils/constants'
+import PlanGate from '@/components/PlanGate'
+import { apiFetch } from '@/api/client'
+import { COLORS } from '@/utils/constants'
 
 export default function LikesScreen() {
   const queryClient = useQueryClient()

@@ -1,7 +1,7 @@
 import { memo } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import LikeButton from './LikeButton'
-import { COLORS } from '../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 interface Prompt {
   _id: string

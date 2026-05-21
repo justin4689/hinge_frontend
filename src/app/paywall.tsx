@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { router } from 'expo-router'
-import { COLORS } from '../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 export default function Paywall() {
   return (

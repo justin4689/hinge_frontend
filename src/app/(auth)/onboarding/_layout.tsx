@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { View, StyleSheet } from 'react-native'
 import { Stack } from 'expo-router'
-import { COLORS } from '../../../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 const TOTAL_STEPS = 6
 

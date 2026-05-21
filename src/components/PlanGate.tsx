@@ -2,8 +2,8 @@ import { ReactNode } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native'
 import { router } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
-import { useAuthStore } from '../store/useAuthStore'
-import { COLORS } from '../utils/constants'
+import { useAuthStore } from '@/store/useAuthStore'
+import { COLORS } from '@/utils/constants'
 
 const HIERARCHY: Record<string, number> = { free: 0, plus: 1, x: 2 }
 

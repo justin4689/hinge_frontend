@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router'
-import { COLORS } from '../../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 export default function AuthLayout() {
   return (

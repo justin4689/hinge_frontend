@@ -9,7 +9,7 @@ import Animated, {
 } from 'react-native-reanimated'
 import * as Haptics from 'expo-haptics'
 import { router } from 'expo-router'
-import { COLORS } from '../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window')
 

@@ -1,4 +1,4 @@
-import { apiFetch } from '../client'
+import { apiFetch } from '@/api/client'
 
 export const discoverApi = {
   getFeed: (cursor: string, maxDistance: number, ageMin: number, ageMax: number) =>

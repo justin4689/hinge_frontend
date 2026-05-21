@@ -10,8 +10,8 @@ import {
 import Slider from '@react-native-community/slider'
 import { router } from 'expo-router'
 import Toast from 'react-native-toast-message'
-import { apiFetch } from '../../../api/client'
-import { COLORS } from '../../../utils/constants'
+import { apiFetch } from '@/api/client'
+import { COLORS } from '@/utils/constants'
 
 const GENDERS = [
   { key: 'man', label: 'Hommes' },

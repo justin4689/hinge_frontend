@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons'
 import Animated, { useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated'
 import * as Haptics from 'expo-haptics'
 import LikeCommentModal from './LikeCommentModal'
-import { COLORS } from '../utils/constants'
+import { COLORS } from '@/utils/constants'
 
 interface Props {
   onPress: (comment?: string) => void
