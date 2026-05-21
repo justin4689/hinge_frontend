@@ -1,7 +1,7 @@
-# CLAUDE.md — Frontend Hinge Clone (React Native Expo SDK 55)
+# CLAUDE.md — Frontend Hinge Clone (React Native Expo SDK 54)
 
 ## Stack & versions — DEFINITIF
-- Framework : **Expo SDK 55** avec Expo Router v3 (file-based routing)
+- Framework : **Expo SDK 54** avec Expo Router v6 (file-based routing)
 - Language : TypeScript (.tsx / .ts partout)
 - State global : **Zustand** — PAS Redux, PAS Context pour le state global
 - Data fetching : **@tanstack/react-query 5.x** (useQuery, useMutation, useInfiniteQuery)
