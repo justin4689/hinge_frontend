@@ -36,7 +36,13 @@
         }
       ],
       "expo-secure-store",
-      "@stripe/stripe-react-native",
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.justin.hingeclone",
+          "enableGooglePay": false
+        }
+      ],
       [
         "expo-notifications",
         { "icon": "./assets/images/icon.png" }
