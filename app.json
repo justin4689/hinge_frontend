@@ -28,12 +28,26 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#1A1A1A",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
         }
+      ],
+      "expo-secure-store",
+      "@stripe/stripe-react-native",
+      [
+        "expo-notifications",
+        { "icon": "./assets/images/icon.png" }
+      ],
+      [
+        "expo-image-picker",
+        { "photosPermission": "Pour choisir vos photos de profil" }
+      ],
+      [
+        "expo-location",
+        { "locationWhenInUsePermission": "Pour voir les profils près de toi" }
       ]
     ],
     "experiments": {
